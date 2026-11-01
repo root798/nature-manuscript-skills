@@ -4,6 +4,8 @@
 
 ## 名词和名词短语
 
+同一对象反复换名字、或正文名称与图中标签不一致时，先用[术语与指代锁定](terminology-and-referents.zh-CN.md)建立全稿映射。技术名词的重复优于让读者猜测两个名称是否指同一个量。
+
 | 检查点 | 改法与例外 |
 |---|---|
 | 名词是否指向可辨对象 | 把 *performance*、*quality*、*impact* 换成实际观察量，例如 *the number of particles left on the membrane*。若 *performance* 是已定义的复合终点，保留原名并说明组成。 |

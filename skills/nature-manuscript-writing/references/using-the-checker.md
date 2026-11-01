@@ -13,3 +13,5 @@ python3 scripts/check_prose.py results.txt --terms my-terms.tsv --strict-terms -
 术语表的四列分别是 scope、avoid、preferred 和 meaning。每行只锁一个已有定义的概念。scope 可填 `*` 或与 `--section` 一致的章节名；默认章节为 Results。示例中 “error rate” 仅在作者确认所指为连续绝对误差时需要改。若测量的确是错误次数的比例，应使用比例所对应的术语。规则按完整词或词组匹配，大小写不敏感。
 
 普通复核提示返回 0。使用 `--strict-terms` 且发现术语冲突时返回 1；输入错误返回 2。无命中只说明没有匹配该词表，语态、主语、比较是否同层以及图文结论仍需逐句审读。
+
+术语统一先建立[概念与名称映射](terminology-and-referents.zh-CN.md)，再把无歧义的旧称放入检查器。检查器不理解指代或分析层级；同一个词在另一段指不同的真实对象时，不能设成全稿自动替换。图内标签还须读取实际渲染文件核对。
