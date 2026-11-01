@@ -1,6 +1,15 @@
 {
   "schema_version": 1,
   "color_space": "sRGB",
+  "source_macaron_card": {
+    "printed_hex_left_to_right": ["#4F5B88", "#6875A8", "#8BA0D0", "#AFC3D8", "#C5E9E3", "#D7CEDC", "#CEA2B5", "#FFB7C3", "#D89090", "#B22222"],
+    "last_swatch": {
+      "printed_hex": "#B22222",
+      "visible_sample_hex": "#FCCCBC",
+      "sample_scope": "Most frequent decoded sRGB colour in a central 16-by-16-pixel patch of the pale peach swatch. Image sample only.",
+      "applied_warning_hex": "#C47A7A"
+    }
+  },
   "paired": {
     "setting_a": {"mark": "#DBA3B5", "range": "#EFD3DC", "dark": "#A9667C", "marker": "o", "range_linestyle": "-"},
     "setting_b": {"mark": "#7C86A8", "range": "#D3DFEC", "dark": "#535C7E", "marker": "D", "range_linestyle": "-"},

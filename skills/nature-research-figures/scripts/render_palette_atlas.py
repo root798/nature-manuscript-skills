@@ -50,7 +50,7 @@ def make_atlas(p):
     section(405, "02", "Four categories and signed values")
     strip(429, "Categorical key", p["categorical"].values())
     strip(490, "Signed: low → zero → high", p["signed_matrix"]["stops_low_to_high"])
-    section(585, "03", "Soft four-colour profile")
+    section(585, "03", "Macaron C: two cool and two warm categories")
     for j, s in enumerate(p["soft_four"].values()):
         x = 48 + 242*j
         parts.append(marker(x, 622, s["marker"], s["fill"], s["edge"]))
@@ -84,13 +84,65 @@ def make_atlas(p):
             f'<rect width="{width}" height="1330" fill="white"/>\n' + "\n".join(parts) + "\n</svg>\n")
 
 
+def make_card(p):
+    """Redraw the printed sequence, and distinguish the last image swatch from its label."""
+    card = p["source_macaron_card"]
+    printed = card["printed_hex_left_to_right"]
+    last = card["last_swatch"]
+    parts = [
+        '<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="398" '
+        'viewBox="0 0 1000 398" role="img" aria-labelledby="title desc">',
+        '<title id="title">Macaron selection card</title>',
+        '<desc id="desc">Ten labelled colours in source order. The last patch looked peach '
+        'despite its red printed code. A separate applied warning colour is shown below.</desc>',
+        '<rect width="1000" height="398" fill="white"/>',
+        '<g font-family="Arial,Helvetica,sans-serif" fill="#222222">',
+    ]
+
+    def label(x, y, string, size=16, weight=400):
+        parts.append(f'<text x="{x}" y="{y}" font-size="{size}" '
+                     f'font-weight="{weight}">{escape(string)}</text>')
+
+    def swatch(x, y, width, height, colour):
+        parts.append(f'<rect x="{x}" y="{y}" width="{width}" height="{height}" '
+                     f'fill="{colour}" stroke="#777777" stroke-width="0.65"/>')
+
+    label(26, 44, "Macaron selection card", 28, 700)
+    label(26, 74, "Original order and printed labels. Swatch 10 shows the sampled image colour, explained below.")
+    for index, colour in enumerate(printed):
+        x = 28 + index * 95
+        label(x, 115, f'{index + 1:02}', 14, 700)
+        fill = last["visible_sample_hex"] if index == len(printed) - 1 else colour
+        swatch(x, 126, 86, 52, fill)
+        label(x, 201, colour, 15)
+
+    parts.append('<path d="M26 230H974" stroke="#C8C8C8"/>')
+    label(26, 263, "Why entry 10 needs a separate check", 20, 700)
+    examples = [
+        (last["printed_hex"], "10 · printed label", "Historical reference only"),
+        (last["visible_sample_hex"], "10 · image sample", "Pale peach in the original image"),
+        (last["applied_warning_hex"], "Applied warning", "Muted rose for a loss or reversal"),
+    ]
+    for j, (colour, name, note) in enumerate(examples):
+        x = 28 + j * 319
+        swatch(x, 286, 48, 48, colour)
+        label(x + 60, 304, name, 16, 700)
+        label(x + 60, 330, colour, 15)
+        label(x, 362, note, 15)
+    parts.extend(["</g>", "</svg>"])
+    return "\n".join(parts) + "\n"
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--out", type=Path, default=ASSETS / "palette-atlas.svg")
+    parser.add_argument("--card", action="store_true", help="render the original ten printed HEX labels")
+    parser.add_argument("--out", type=Path)
     args = parser.parse_args()
     palette = json.loads((ASSETS / "palettes.json").read_text(encoding="utf-8"))
-    args.out.parent.mkdir(parents=True, exist_ok=True)
-    args.out.write_text(make_atlas(palette), encoding="utf-8")
+    out = args.out or ASSETS / ("macaron-card.svg" if args.card else "palette-atlas.svg")
+    out.parent.mkdir(parents=True, exist_ok=True)
+    content = make_card(palette) if args.card else make_atlas(palette)
+    out.write_text(content, encoding="utf-8")
 
 
 if __name__ == "__main__":

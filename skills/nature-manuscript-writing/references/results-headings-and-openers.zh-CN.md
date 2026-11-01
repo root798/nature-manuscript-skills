@@ -1,0 +1,77 @@
+# Results 小节标题、目标句与段首句
+
+当作者说“第一句不清楚”，先暂时遮住括号、系数、图号和后文。让一个知道研究设置、但没做过这次分析的读者复述：**测了什么，哪两个对象或条件在比，发现了什么？** 如果只能答“作者做了一次检验”，或者得翻图猜 *others* 是谁，先重写科学判断，再润色英文。
+
+## 先分清“目标句”指什么
+
+| 位置 | 它回答什么 | 写法 |
+|---|---|---|
+| 写作前的段落目标（通常不入稿） | 读完本段，读者应比上一段多知道什么？哪项观察可推翻它？ | 写一条可核的判断，旁边放决定性比较、出处和会改变判断的反例。两个互不依赖的判断不挤进同一句。 |
+| 稿件里的目的句／研究问题 | 在看到结果前，真正未知的是什么？ | 如果现象是否存在都未知，先问 *whether*，再问 *if so, how large / under which conditions*。不用 *this discrepancy* 或 *the effect* 偷偷预设其存在。现象若已由上一段建立，可以点名它，再问未解决的范围。 |
+| Results 段首的主题句（topic sentence） | 对已有数据，本段最重要的回答是什么？ | 用读者叫得出名字的对象作主语，让主要谓语说出测到的比较。紧随其后的证据解释其大小或可信范围。实验未完成时，才改写为检验设计和能区分解释的预测。 |
+
+例如，先写 *We asked whether absolute voltage error differed between the two layouts and, if so, whether the difference had the same sign in dry and humid air.* 如果差异还没建立，不写 *We investigated the source of this improvement.* 真有测量以后，结果段就直接说哪个布局在什么条件下误差更小。目的句不必在每一段重放。若作者指定是 Setup／介绍段，段首可以建立后面要用的概念、单位或设计，不必抢先报告结果。
+
+## 小节标题划定范围，首句给出第一步证据
+
+1. **写出这一节的问题。** 用具体对象和终点替换 *Performance analysis*、*Further validation*。想象把这个标题放到另一节：如果仍然完全适用，它多半没说清本节在解决什么。
+2. **按证据选标题。** 全节已回答同一个问题，可以用有范围的发现式标题。若多个结果方向不同，可以用准确的描述式标题，或把改变认识的差异写进标题。尚无结果时用问题式标题。横截面相关写 *varied with* 或直接命名比较；不能用 *drives*、*determines* 替研究设计补上因果识别。
+3. **标题的每个分句都须有证据。** 特别检查 *and* 后面的后半句。结果支持“读数怎样变化”不等于支持“为什么变化”。若两个比较各自显著或各自不显著，也不能在标题上写成“两者相同”或“两者不同”；回到两者的直接对比。一个面板、一个样本的结果不能包办整节。
+4. **使标题和首句互补。** 标题概括整节；首段先交最能让读者进入问题的发现，写清比较对象、方向和必要范围。后续段首各自新增一个判断，例如方向 → 哪些对象例外，或总体差异 → 固定条件后是否仍成立。不必重复标题，亦不必把整节的全部发现塞进第一句。
+5. **区分小节标题与面板标题。** 本模板的面板标题优先写读者正在看的量和对象；科学判断留给 Results。若稿件已有作者认可的标题、首句或图题，先标为保护项；只改获准部位。此处是编辑约定，不是期刊统一规定。
+
+若作者说“每段一句话给我看”，先交下面这张短提纲；它也是发现到证据的对照表。一段写不满不必硬凑；若问题找不到对应证据，先暴露缺口。
+
+| 小节标题与共同问题 | 段落要新增的认识 | 拟入稿的英文首句 | 决定性比较、统计单位、图／表位置 | 状态 |
+|---|---|---|---|---|
+| 同一小节只填一次 | 对象、条件和目标量，须不同于上一段 | 只写这段能成立的回答 | 数据哪一行或面板哪两组，直接支持哪几个字 | 已观察／只支持更窄陈述／待测 |
+
+“做完了”与“支持这个判断”也要分开。若已有两个总体中位数、没有同批配对观测，可写两仪器的总体读数分别是多少，但不能据此声称它们在同批样品内排出了不同次序。若已做直接检验却未检出差异，就按实际精度写未检出以及仍相容的范围；不能把它写成等同，也不能把已经完成的检验改写成一项未来计划。
+
+## 重写段首：决定数字和解释应该去哪里
+
+| 容易被退回的一句 | 作者下一步应做什么 |
+|---|---|
+| *We next computed the error under both layouts.* | 作者的操作还没有回答问题。若已测完，把布局、误差和比较方向放入主句；如果某个条件决定比较是否公平，把它作短限定保留，计算细节后移。 |
+| *Some devices performed better, whereas others differed.* | 点名是哪类设备、什么叫 *better*、与谁比。若“几台中的几台”就是发现，直接写已核的分子分母。不要在句尾补一串数字让读者自己配对。 |
+| *The results were stable.* | 问“在什么扰动下，哪个量保持在什么范围？”报告实际复测，或写明相对于哪个对象变化较小。不能用裸的 *stable / consistent / robust* 代替测量。 |
+| *Both sets of readings differed.* | 检查这是否只是“两个带噪测量不完全相同”。指出足以改变判断的方向、幅度、预先定义的参照或集中出现的条件；缺少这些时降低它的段首地位。 |
+| 一句话塞入样本数、两个系数、多个组和图号 | 先写读者能复述的一项观察，再在对应比较旁给关键数。比例或阈值本身决定结论时可留在首句。没有“首句必须有数字”“一句只能有一个数字”或“总要用 *We found*”的配额。 |
+| 把“可重复测到”写成“共享同一种机制” | 单独说清测到的是同一对象复测，还是两组对象之间的比较。在一组内部结果相近不能证明两组采用相同标准。需要推断时，留到直接证据展开后，并写清仍相容的解释。 |
+
+段间衔接靠同一个对象，少靠 *Next / Furthermore*。可把上一段已建立的现象压成一个有明确所指的名词，再接新的对照。分组或汇总段可以先接上一段的总体发现，再在同句后半给出分组中新建立的判断；两个分句只有转折没有新证据时，删去重复的半句。段末可落在一个具体反例、下一项比较为何必要、或解释所到的边界，不要求每段都有机制。
+
+**检查例子有没有答错问题。** 如果目标句写“同一制造批次内，仪器对同一组样品排出了不同次序”，那就取同一个批次、同一组样品，展示两台仪器各自的排序。两个批次的中位数不一样，或某个样品在跨批次总榜排名很低，都不是这句的证据。一组真实的名次比自造的抽象类别名更容易读；若要写“多个批次里都发生”，还须逐批核查。关键单位未解释时，先把读数译成读者熟悉的量，再讲它可能意味着什么。
+
+## 完整演示：从证据表写到可交稿段落
+
+以下是虚构的教学数据。四块板在两种湿度下均以同一顺序测量两种布线。表中是每块板的“常规布线绝对电压误差 − 屏蔽布线绝对电压误差”（mV）；正值表示屏蔽布线读数的误差较小，没有控制测量顺序，不能据此归因。
+
+| 板 | 干燥空气 | 潮湿空气 |
+|---|---:|---:|
+| A | 1 | 3 |
+| B | 2 | 4 |
+| C | 1 | −1 |
+| D | 2 | 4 |
+
+**先做反向提纲。** 节问题：两种布线的误差差异是否出现在每块板上，在两种湿度下是否如此？第一段建立干燥条件下逐板方向一致；第二段检查这一结论是否延伸到潮湿条件，保留平均值与个体方向不一致的例外。两段分工不同，不为同一表另造“稳健性分析”一节。
+
+| 写作位置 | 退回稿 | 可用稿与理由 |
+|---|---|---|
+| 小节标题 | *Validation of the shielding mechanism* | *Absolute voltage error under two wiring layouts in dry and humid air*。它覆盖两段，也没有把比较提升为机制。若要突出有证据的共同发现，可用 *Mean absolute voltage error was lower with shielded wiring in both humidity conditions*。 |
+| 第一段首句 | *We quantified the performance of the layouts.* | *In dry air, all four boards had lower absolute voltage error with shielded wiring than with standard wiring.* 读者马上知道是哪一边、哪个量、在哪几块板上。 |
+| 第二段首句 | *This pattern was also robust to humidity.* | *In humid air, the mean reduction was larger than in dry air, but one board had higher error with shielded wiring.* 它承接上段，但真正新增的是平均与个体方向的区别。 |
+
+**可直接读的英文正文：**
+
+> In dry air, all four boards had lower absolute voltage error with shielded wiring than with standard wiring. The paired differences ranged from 1 to 2 mV, with a mean of 1.5 mV across boards.
+>
+> In humid air, the mean reduction was larger than in dry air, but one board had higher error with shielded wiring. The mean difference rose to 2.5 mV across the four boards. On board C, the 1 mV advantage seen in dry air reversed to a 1 mV disadvantage in humid air.
+
+**同一研究若尚未完成**，小节标题可以是 *Is absolute voltage error also lower with shielded wiring on every board in humid air?*（前提是干燥结果已建立）。段首可以是 *We will compare both layouts on the same boards in humid air. A reversal of the paired difference on any board would rule out a uniform advantage across these boards.* 这是设计与判别预测，不能贴进已完成 Results 当作观察。若原问题只关心平均值，个体反例也不能推翻平均差；预测必须针对实际目标。
+
+## 交付前单独读三遍
+
+- **只读标题和所有首句。** 不看图、不读段尾：能依次说出问题、发现、例外或新比较吗？两段互换却毫无损失，查是否在重复；若是同一层级上并列的独立结果，不强造因果顺序。
+- **逐句对证据。** 把标题的每个分句、每段的主要动词连到一行源表、一个面板或一项待做检验。检查单位、方向、分母以及测量层级；分清“未检测到”“相同”“等效”。看不到支持证据就缩小措辞，或把待核项留在稿外。
+- **按作者所要的范围交稿。** 只要标题与首句时，按小节交“标题 → 各段首句 → 各自新增什么 → 对应证据”；要求改段时，交完整可替换段落。作者已定标题或只授权换数时，保留文字，另列新证据可能推翻哪一句。

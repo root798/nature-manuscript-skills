@@ -5,10 +5,12 @@
 | 要做的事 | 入口 |
 |---|---|
 | 写一节 Results、改首句、收紧机制解释或校审全文 | [写作 skill](skills/nature-manuscript-writing/SKILL.md) |
+| 把研究目标、小节标题和各段第一句写清楚 | [标题与首句改稿示范](skills/nature-manuscript-writing/references/results-headings-and-openers.zh-CN.md)：同一份数据的提纲、退回稿与完整替换段 |
 | 查名词、代词、形容词、副词、语态、时态及比较句 | [英语用法规程](skills/nature-manuscript-writing/references/english-usage.md) |
 | 判断用词该删除、补证据、保留技术义，还是只在某个项目禁用 | [词语政策与例句](skills/nature-manuscript-writing/references/word-policy.md) · [可编辑检查词表](skills/nature-manuscript-writing/assets/prose-signals.tsv) |
 | 设计图组、修复一个 panel，或对照图注和源表 | [绘图 skill](skills/nature-research-figures/SKILL.md) |
 | 取 HEX、填充、描边、透明度、线型和标记 | [配色选择指南](skills/nature-research-figures/references/colour-guide.zh-CN.md) · [机器可读模板](skills/nature-research-figures/assets/palettes.json) |
+| 从马卡龙十色色卡选色，或复现旧稿的配色 | [马卡龙选色步骤](skills/nature-research-figures/references/macaron-selection.zh-CN.md) · [严格限于原卡的四色示例](skills/nature-research-figures/assets/macaron-original-four.example.tsv) · [后来采用的 C 方案](skills/nature-research-figures/assets/macaron-role-map.example.tsv) |
 | 查看一张图从原始观测到可交付文件的过程 | [合成示例、运行方式与验收](skills/nature-research-figures/references/example.zh-CN.md) |
 
 ## 先看一个图文联改例子
@@ -22,6 +24,10 @@
 图 a 保留两个条件及两次读数的范围，图 b 用每个样本的两组均值计算 B − A。图注应解释区间两端是两次读数的最小值和最大值。结果只描述这里的五个样本；推广到其他样本需要另外的证据。[示例源数据](skills/nature-research-figures/assets/example-readings.csv)
 
 ## 颜色怎样选
+
+![马卡龙十色参考卡的重绘与末格标签、截图色、实用色的对照](skills/nature-research-figures/assets/macaron-card.svg)
+
+要求“按这张马卡龙卡选”时，从这十个有出处的色号开始。最后一格的印刷标注、截图外观和后来实际采用的警示红不同，见[选色指南](skills/nature-research-figures/references/macaron-selection.zh-CN.md)。若在修一份已有定稿的图，先查它已锁定的类别与图例，再决定是否换色。
 
 ![可复用配色模板与通道编码](skills/nature-research-figures/assets/palette-atlas.svg)
 

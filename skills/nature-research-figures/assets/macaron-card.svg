@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="398" viewBox="0 0 1000 398" role="img" aria-labelledby="title desc">
+<title id="title">Macaron selection card</title>
+<desc id="desc">Ten labelled colours in source order. The last patch looked peach despite its red printed code. A separate applied warning colour is shown below.</desc>
+<rect width="1000" height="398" fill="white"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#222222">
+<text x="26" y="44" font-size="28" font-weight="700">Macaron selection card</text>
+<text x="26" y="74" font-size="16" font-weight="400">Original order and printed labels. Swatch 10 shows the sampled image colour, explained below.</text>
+<text x="28" y="115" font-size="14" font-weight="700">01</text>
+<rect x="28" y="126" width="86" height="52" fill="#4F5B88" stroke="#777777" stroke-width="0.65"/>
+<text x="28" y="201" font-size="15" font-weight="400">#4F5B88</text>
+<text x="123" y="115" font-size="14" font-weight="700">02</text>
+<rect x="123" y="126" width="86" height="52" fill="#6875A8" stroke="#777777" stroke-width="0.65"/>
+<text x="123" y="201" font-size="15" font-weight="400">#6875A8</text>
+<text x="218" y="115" font-size="14" font-weight="700">03</text>
+<rect x="218" y="126" width="86" height="52" fill="#8BA0D0" stroke="#777777" stroke-width="0.65"/>
+<text x="218" y="201" font-size="15" font-weight="400">#8BA0D0</text>
+<text x="313" y="115" font-size="14" font-weight="700">04</text>
+<rect x="313" y="126" width="86" height="52" fill="#AFC3D8" stroke="#777777" stroke-width="0.65"/>
+<text x="313" y="201" font-size="15" font-weight="400">#AFC3D8</text>
+<text x="408" y="115" font-size="14" font-weight="700">05</text>
+<rect x="408" y="126" width="86" height="52" fill="#C5E9E3" stroke="#777777" stroke-width="0.65"/>
+<text x="408" y="201" font-size="15" font-weight="400">#C5E9E3</text>
+<text x="503" y="115" font-size="14" font-weight="700">06</text>
+<rect x="503" y="126" width="86" height="52" fill="#D7CEDC" stroke="#777777" stroke-width="0.65"/>
+<text x="503" y="201" font-size="15" font-weight="400">#D7CEDC</text>
+<text x="598" y="115" font-size="14" font-weight="700">07</text>
+<rect x="598" y="126" width="86" height="52" fill="#CEA2B5" stroke="#777777" stroke-width="0.65"/>
+<text x="598" y="201" font-size="15" font-weight="400">#CEA2B5</text>
+<text x="693" y="115" font-size="14" font-weight="700">08</text>
+<rect x="693" y="126" width="86" height="52" fill="#FFB7C3" stroke="#777777" stroke-width="0.65"/>
+<text x="693" y="201" font-size="15" font-weight="400">#FFB7C3</text>
+<text x="788" y="115" font-size="14" font-weight="700">09</text>
+<rect x="788" y="126" width="86" height="52" fill="#D89090" stroke="#777777" stroke-width="0.65"/>
+<text x="788" y="201" font-size="15" font-weight="400">#D89090</text>
+<text x="883" y="115" font-size="14" font-weight="700">10</text>
+<rect x="883" y="126" width="86" height="52" fill="#FCCCBC" stroke="#777777" stroke-width="0.65"/>
+<text x="883" y="201" font-size="15" font-weight="400">#B22222</text>
+<path d="M26 230H974" stroke="#C8C8C8"/>
+<text x="26" y="263" font-size="20" font-weight="700">Why entry 10 needs a separate check</text>
+<rect x="28" y="286" width="48" height="48" fill="#B22222" stroke="#777777" stroke-width="0.65"/>
+<text x="88" y="304" font-size="16" font-weight="700">10 · printed label</text>
+<text x="88" y="330" font-size="15" font-weight="400">#B22222</text>
+<text x="28" y="362" font-size="15" font-weight="400">Historical reference only</text>
+<rect x="347" y="286" width="48" height="48" fill="#FCCCBC" stroke="#777777" stroke-width="0.65"/>
+<text x="407" y="304" font-size="16" font-weight="700">10 · image sample</text>
+<text x="407" y="330" font-size="15" font-weight="400">#FCCCBC</text>
+<text x="347" y="362" font-size="15" font-weight="400">Pale peach in the original image</text>
+<rect x="666" y="286" width="48" height="48" fill="#C47A7A" stroke="#777777" stroke-width="0.65"/>
+<text x="726" y="304" font-size="16" font-weight="700">Applied warning</text>
+<text x="726" y="330" font-size="15" font-weight="400">#C47A7A</text>
+<text x="666" y="362" font-size="15" font-weight="400">Muted rose for a loss or reversal</text>
+</g>
+</svg>

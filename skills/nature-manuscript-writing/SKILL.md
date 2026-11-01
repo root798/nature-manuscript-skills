@@ -12,6 +12,7 @@ Start with the question, the comparison and the evidence. A reader should unders
 | Task | Open | Deliver |
 |---|---|---|
 | Draft a manuscript, restructure a section, translate or respond to review | [Argument and section guide](references/manuscript-structure.md) | A reverse outline, the requested copy-ready text and the few issues that still affect it |
+| Design Results subsection headings, clarify an aim or rewrite paragraph openers | [Headings, aims and first sentences](references/results-headings-and-openers.zh-CN.md) | The section question, heading and first sentences read together; the evidence for each and copy-ready edits at the requested scope |
 | Revise a Results paragraph, reconcile its panel, update values or shorten its caption | [Results and figure-text checks](references/results-and-figures.md) | A replacement paragraph or caption, its location and the evidence needed to clear any open claim |
 | Fix grammar, syntax, tone or ambiguity without changing the science | [English usage guide](references/english-usage.md) | Complete revised sentences with the actor, referent, comparison, units and uncertainty preserved |
 | Check prohibited wording, unsupported claims, term drift or repetitive prose | [Vocabulary and style checks](references/word-policy.md) | Context-specific corrections. In an audit, identify the offending passage, reason, replacement and exception |

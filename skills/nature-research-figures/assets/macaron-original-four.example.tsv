@@ -1,0 +1,5 @@
+label	variable	card_fill_number	fill_hex	card_edge_number	edge_hex	marker	caption_symbol
+Bead	specimen form	01	#4F5B88	01	#4F5B88	o	dark blue circle
+Fibre	specimen form	04	#AFC3D8	01	#4F5B88	s	pale blue square
+Membrane	specimen form	05	#C5E9E3	01	#4F5B88	^	mint triangle
+Foam	specimen form	09	#D89090	01	#4F5B88	D	dusty rose diamond

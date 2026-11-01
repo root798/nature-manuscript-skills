@@ -10,7 +10,8 @@ Start with the sentence that the finished figure must support. Identify the obse
 | Request | Use |
 |---|---|
 | Design a new figure or rebuild a confusing Results figure | [Evidence, panels, encodings and interpretation](references/figure-workflow.zh-CN.md). Write the role of each panel before selecting a chart. |
-| Choose colours, adapt an approved style, or reproduce an earlier figure | [Colour and marker guide](references/colour-guide.zh-CN.md), [machine-readable profiles](assets/palettes.json) and [swatch atlas](assets/palette-atlas.svg). Preserve the active figure's category-to-colour mapping. |
+| Choose macaron colours for a new figure or recolour selected panels | Start with the [macaron selection workflow](references/macaron-selection.zh-CN.md). Bind one scientific variable to the slots and proof the actual marks. Use the [original-card example](assets/macaron-original-four.example.tsv) for an exact-card constraint or the [Palette C role map](assets/macaron-role-map.example.tsv) for the four-category extension. |
+| Reproduce an approved figure or match its legend | Inspect the generating script and accepted figure together. Look up the matching [colour and marker guide](references/colour-guide.zh-CN.md), [machine-readable profiles](assets/palettes.json) and [swatch atlas](assets/palette-atlas.svg). Preserve the established category mapping. |
 | Replace measurements or repair one panel | Keep an old render and source table. Compare panel identities, values, limits, aspect ratio, legend, caption and citations after editing. |
 | Prepare the delivery files | [Final-size, export and caption checks](references/delivery.zh-CN.md). Inspect the actual file embedded in the manuscript. |
 | Run a working template | [Synthetic paired example](references/example.zh-CN.md). From this skill's directory run `python3 scripts/render_example.py --out build`. One input CSV produces editable PDF and SVG, a PNG and a table of derived values. |
