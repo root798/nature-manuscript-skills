@@ -54,8 +54,23 @@ def configure(ink):
     })
 
 
-def render(rows, palette, output):
-    paired = palette["paired"]
+def paired_style(palettes, name):
+    if name == "archived":
+        return palettes["paired"]
+    muted = palettes["goal_muted"]
+    if name not in muted["pairs"]:
+        raise ValueError(f"Unknown pair {name!r}; choose from {', '.join(muted['pairs'])} or archived")
+    neutral = muted["neutrals"]
+    a, b = muted["pairs"][name]
+    style = {"ink": neutral["ink"], "control": neutral["reference"]}
+    for key, hue, shape in zip(SETTINGS, (a, b), ("o", "D")):
+        family = muted["families"][hue]
+        style["setting_" + key] = {"mark": family["fill"], "edge": family["edge"], "range": family["band"],
+                                    "marker": shape, "range_linestyle": "-"}
+    return style
+
+
+def render(rows, paired, output):
     configure(paired["ink"])
     height_mm = max(78, 36 + 7 * len(rows))
     fig, (absolute, delta) = plt.subplots(
@@ -71,10 +86,13 @@ def render(rows, palette, output):
             values = row[index + 1]
             absolute.hlines(y + off, min(values), max(values), color=style["range"],
                             linewidth=2.2, linestyles=style["range_linestyle"])
+            if "edge" in style:
+                # The pale band shows the family; its thin spine keeps the two observed limits legible.
+                absolute.hlines(y + off, min(values), max(values), color=style["edge"], linewidth=0.55)
             absolute.plot(statistics.mean(values), y + off, marker=style["marker"], ms=4,
-                          color=style["mark"], markeredgecolor=paired["ink"], markeredgewidth=0.4)
+                          color=style["mark"], markeredgecolor=style.get("edge", paired["ink"]), markeredgewidth=0.4)
         handles.append(Line2D([], [], marker=style["marker"], linestyle="none",
-                              markerfacecolor=style["mark"], markeredgecolor=paired["ink"],
+                              markerfacecolor=style["mark"], markeredgecolor=style.get("edge", paired["ink"]),
                               markeredgewidth=0.4, label="Setting " + key.upper(), markersize=4))
     diffs = [statistics.mean(b) - statistics.mean(a) for _, a, b in rows]
     delta.axvline(0, color=paired["control"], linewidth=0.7, linestyle="--", zorder=0)
@@ -96,7 +114,11 @@ def render(rows, palette, output):
                ncol=2, handletextpad=0.35, columnspacing=1.5)
 
     output.mkdir(parents=True, exist_ok=True)
-    fig.savefig(output / "example-figure.svg", metadata={"Date": None, "Creator": None})
+    svg = output / "example-figure.svg"
+    fig.savefig(svg, metadata={"Date": None, "Creator": None})
+    if "edge" in paired["setting_a"]:
+        svg.write_text("\n".join(line.rstrip() for line in svg.read_text(encoding="utf-8").splitlines()) + "\n",
+                       encoding="utf-8")
     fig.savefig(output / "example-figure.pdf",
                 metadata={"CreationDate": None, "ModDate": None, "Creator": None})
     fig.savefig(output / "example-figure.png", dpi=300)
@@ -113,10 +135,18 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data", type=Path, default=ASSETS / "example-readings.csv")
     parser.add_argument("--out", type=Path, default=Path("build"))
+    parser.add_argument("--palette", default="slate_clay",
+                        help="Two-family key under goal_muted.pairs (e.g. slate_clay, sage_plum), or archived")
+    parser.add_argument("--palettes", type=Path, default=ASSETS / "palettes.json",
+                        help="Use a manuscript-specific copy of the palette definitions")
     args = parser.parse_args()
-    with (ASSETS / "palettes.json").open(encoding="utf-8") as file:
+    with args.palettes.open(encoding="utf-8") as file:
         palette = json.load(file)
-    render(read_table(args.data), palette, args.out)
+    try:
+        style = paired_style(palette, args.palette)
+    except ValueError as error:
+        parser.error(str(error))
+    render(read_table(args.data), style, args.out)
 
 
 if __name__ == "__main__":

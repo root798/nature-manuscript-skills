@@ -35,8 +35,8 @@ def make_atlas(p):
             parts.append(f'<rect x="{x}" y="{y}" width="126" height="25" fill="{color}" '
                          'stroke="#555555" stroke-width="0.6"/>')
             label(x, y + 43, color, 13)
-    label(32, 45, "Research figure palettes", 31, 700)
-    label(32, 73, "Choose one mapping per scientific variable. Read each row from left to right.")
+    label(32, 45, "Archived research figure palettes", 31, 700)
+    label(32, 73, "Use these profiles to reproduce an existing figure. New work may choose other muted hues.")
     section(128, "01", "Paired measurements")
     for j, k in enumerate(("setting_a", "setting_b")):
         s = p["paired"][k]
@@ -79,7 +79,7 @@ def make_atlas(p):
     # No scripts, external fonts, embedded data, author field, or workstation paths.
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="1330" '
             f'viewBox="0 0 {width} 1330" role="img" aria-labelledby="title desc">\n'
-            '<title id="title">Scientific figure palette atlas</title>\n'
+            '<title id="title">Archived scientific figure palette atlas</title>\n'
             '<desc id="desc">Five sections show hex colours, marker shapes, signed ramps, and archived settings.</desc>\n'
             f'<rect width="{width}" height="1330" fill="white"/>\n' + "\n".join(parts) + "\n</svg>\n")
 

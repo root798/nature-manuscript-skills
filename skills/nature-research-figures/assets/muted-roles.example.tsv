@@ -1,0 +1,3 @@
+series	comparison	colour_family	fill	edge	band	marker	linestyle	caption_symbol
+Method A	methods measured on the same specimens	slate	#84A2C0	#45607C	#D4E0EC	o	solid	blue-grey circles
+Method B	methods measured on the same specimens	clay	#CFA391	#7A5343	#EBDAD3	D	dashed	clay diamonds

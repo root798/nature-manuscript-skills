@@ -9,8 +9,8 @@
 | 查名词、代词、形容词、副词、语态、时态及比较句 | [英语用法规程](skills/nature-manuscript-writing/references/english-usage.md) |
 | 判断用词该删除、补证据、保留技术义，还是只在某个项目禁用 | [词语政策与例句](skills/nature-manuscript-writing/references/word-policy.md) · [可编辑检查词表](skills/nature-manuscript-writing/assets/prose-signals.tsv) |
 | 设计图组、修复一个 panel，或对照图注和源表 | [绘图 skill](skills/nature-research-figures/SKILL.md) |
-| 取 HEX、填充、描边、透明度、线型和标记 | [配色选择指南](skills/nature-research-figures/references/colour-guide.zh-CN.md) · [机器可读模板](skills/nature-research-figures/assets/palettes.json) |
-| 从马卡龙十色色卡选色，或复现旧稿的配色 | [马卡龙选色步骤](skills/nature-research-figures/references/macaron-selection.zh-CN.md) · [严格限于原卡的四色示例](skills/nature-research-figures/assets/macaron-original-four.example.tsv) · [后来采用的 C 方案](skills/nature-research-figures/assets/macaron-role-map.example.tsv) |
+| 按论文目的选低饱和配色：两组比较、类别、大小或正负变化 | [低饱和选色指南](skills/nature-research-figures/references/muted-selection.zh-CN.md) · [点、线与色阶上的试样](skills/nature-research-figures/assets/muted-palette-proof.svg) · [可调的颜色配置](skills/nature-research-figures/assets/palettes.json) |
+| 复现已有图或明确要求逐色匹配原卡 | [历史配置和图例](skills/nature-research-figures/references/colour-guide.zh-CN.md) · [十色色卡复绘](skills/nature-research-figures/assets/macaron-card.svg) |
 | 查看一张图从原始观测到可交付文件的过程 | [合成示例、运行方式与验收](skills/nature-research-figures/references/example.zh-CN.md) |
 
 ## 先看一个图文联改例子
@@ -25,26 +25,29 @@
 
 ## 颜色怎样选
 
-![马卡龙十色参考卡的重绘与末格标签、截图色、实用色的对照](skills/nature-research-figures/assets/macaron-card.svg)
+共同的偏好是**低饱和度**。每张新图可以换色相。先问读者这一眼要看出什么，再决定颜色是否有用。
 
-要求“按这张马卡龙卡选”时，从这十个有出处的色号开始。最后一格的印刷标注、截图外观和后来实际采用的警示红不同，见[选色指南](skills/nature-research-figures/references/macaron-selection.zh-CN.md)。若在修一份已有定稿的图，先查它已锁定的类别与图例，再决定是否换色。
+![低饱和配色在点、区间、分类标记与连续色阶上的试样](skills/nature-research-figures/assets/muted-palette-proof.svg)
 
-![可复用配色模板与通道编码](skills/nature-research-figures/assets/palette-atlas.svg)
+- **区分两个同等重要的来源：**可以选板岩蓝与陶土色，也可以选鼠尾草绿与灰梅紫。再用圆／菱形区分，让细线交叉时仍能认出对象。这两组是起点，没有规定某个来源必须是蓝色。
+- **突出一个主要发现：**主结果用一个柔和色，背景比较用可读的灰。连续量由小到大，用同色相的明暗顺序；只有正负围绕有意义的零点时才用双向色阶。零与缺失分别标注。
+- **同一论文已有图例：**同一个对象在读者需要横向比较的面板里保持一致。换一篇论文，或画一个语义不同的量，可以重新选色。缩到刊载宽度后若淡色标记看不清，先加深描边、改点形或直接标注，保留低饱和的观感。
 
-先写颜色要区分的对象。两种来源用固定色和可辨认的标记，四种无序类别从分类色表取值。有正负方向且零点有解释意义时才使用发散色标。图例、正文用词和实际导出的标记必须指向同一对象。旧方案与当前推荐方案分别列在配色指南，不能仅凭颜色好看把不同角色混在一个图例中。
+只有要复现旧图，或明确要求完全采用原卡时，才回到[十色参考卡与归档方案](skills/nature-research-figures/references/colour-guide.zh-CN.md)。原卡保留了来源，不限制新图可用的色号。
 
 ## 安装与运行
 
 解压或克隆整个仓库。将 `skills/` 下所需的完整子目录复制到当前账户的 `~/.codex/skills/` 或 `~/.claude/skills/`，并在新会话中点名 skill。也可以直接阅读 SKILL.md，无需安装。
 
 - **写作请求示例**　“用 `nature-manuscript-writing` 修改这段 Results。保留比较范围，指出哪些词需要证据，交完整英文替换段。”
-- **绘图请求示例**　“用 `nature-research-figures` 将这份配对数据画成两面板。颜色和标记从模板读取，按实际刊载尺寸检查图和图注。”
+- **绘图请求示例**　“用 `nature-research-figures` 画出这两种设置的差异。给两种低饱和配色，在同一张配对图上比较，选成稿大小下更好认的那组。”
 
 从仓库根目录运行。文字检查器只依赖 Python 3 标准库，示例图另需 Matplotlib。
 
 ~~~sh
 python3 skills/nature-manuscript-writing/scripts/check_prose.py results.txt
 python3 skills/nature-research-figures/scripts/render_example.py --out build
+python3 skills/nature-research-figures/scripts/render_example.py --palette sage_plum --out build/sage-plum
 ~~~
 
 词法命中是重读位置，不能证明句子有错。比如 *robust estimator* 可以是方法名；*the estimates were robust* 则要说明究竟经受了哪种扰动，以及结论改变多少。[检查器、术语锁与返回码](skills/nature-manuscript-writing/references/using-the-checker.md)

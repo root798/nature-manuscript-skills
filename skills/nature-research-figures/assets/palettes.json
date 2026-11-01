@@ -1,6 +1,24 @@
 {
   "schema_version": 1,
   "color_space": "sRGB",
+  "goal_muted": {
+    "scope": "Starting colours for new figures. Select and adapt by the comparison the reader needs to see. Assignments apply to the manuscript and scientific variable recorded in the legend.",
+    "origin": "Newly designed examples inspired by the restrained tone of the reference card.",
+    "families": {
+      "slate": {"fill": "#84A2C0", "edge": "#45607C", "band": "#D4E0EC"},
+      "clay":  {"fill": "#CFA391", "edge": "#7A5343", "band": "#EBDAD3"},
+      "sage":  {"fill": "#91AD92", "edge": "#4B654D", "band": "#D6E2D6"},
+      "plum":  {"fill": "#BB9CBB", "edge": "#6F526F", "band": "#E6D9E6"}
+    },
+    "pairs": {"slate_clay": ["slate", "clay"], "sage_plum": ["sage", "plum"]},
+    "categorical": ["slate", "sage", "clay", "plum"],
+    "sequential": {
+      "slate": ["#E3ECF6", "#B9C9DA", "#8CA4BD", "#5E7A97", "#37526D"],
+      "sage": ["#E5EEE5", "#BCCDBC", "#90A991", "#638064", "#3C583D"]
+    },
+    "diverging": {"clay_to_slate": ["#8A6556", "#C8AA9E", "#EDEDEB", "#9FB4C9", "#56728D"]},
+    "neutrals": {"ink": "#293137", "reference": "#777E80", "background": "#FFFFFF", "missing": "#D1D3D2"}
+  },
   "source_macaron_card": {
     "printed_hex_left_to_right": ["#4F5B88", "#6875A8", "#8BA0D0", "#AFC3D8", "#C5E9E3", "#D7CEDC", "#CEA2B5", "#FFB7C3", "#D89090", "#B22222"],
     "last_swatch": {

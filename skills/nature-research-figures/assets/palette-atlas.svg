@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1020" height="1330" viewBox="0 0 1020 1330" role="img" aria-labelledby="title desc">
-<title id="title">Scientific figure palette atlas</title>
+<title id="title">Archived scientific figure palette atlas</title>
 <desc id="desc">Five sections show hex colours, marker shapes, signed ramps, and archived settings.</desc>
 <rect width="1020" height="1330" fill="white"/>
-<text x="32" y="45" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="700" fill="#222222">Research figure palettes</text>
-<text x="32" y="73" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Choose one mapping per scientific variable. Read each row from left to right.</text>
+<text x="32" y="45" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="700" fill="#222222">Archived research figure palettes</text>
+<text x="32" y="73" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Use these profiles to reproduce an existing figure. New work may choose other muted hues.</text>
 <path d="M32 105H988" stroke="#C8C8C8"/>
 <text x="32" y="128" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#535C7E">01</text>
 <text x="74" y="128" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#222222">Paired measurements</text>
