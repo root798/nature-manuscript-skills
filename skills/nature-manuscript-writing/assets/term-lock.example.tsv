@@ -1,3 +1,3 @@
 scope	avoid	preferred	meaning
-Results	error rate	absolute error	示例中定义的连续绝对误差；比例型错误率属于另一变量
-*	measurement span	measurement window	实验中预先定义的同一采集时段
+Results	board deviation index	absolute voltage error	本示例旧稿中专指单次读数与参考电压的绝对偏差（mV）
+*	acquisition window length	measurement window duration	本示例已确认的同一段采集时间的长度（s）

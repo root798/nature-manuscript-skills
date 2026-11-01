@@ -10,7 +10,7 @@ python3 scripts/check_prose.py results.txt --terms my-terms.tsv --strict-terms -
 
 通用词表给出复核问题。比如 “robust estimator” 可以是正式方法名；“the estimates were robust” 则需要说明对哪种扰动、在哪个样本上稳健。遇到 “this suggests” 时，先核所指观察以及它支持的推断。检查器不能判断论证是否正确，也不能判断谁写了稿件。
 
-术语表的四列分别是 scope、avoid、preferred 和 meaning。每行只锁一个已有定义的概念。scope 可填 `*` 或与 `--section` 一致的章节名；默认章节为 Results。示例中 “error rate” 仅在作者确认所指为连续绝对误差时需要改。若测量的确是错误次数的比例，应使用比例所对应的术语。规则按完整词或词组匹配，大小写不敏感。
+术语表的四列分别是 scope、avoid、preferred 和 meaning。每行只锁一个已有定义的概念。scope 可填 `*` 或与 `--section` 一致的章节名，默认章节为 Results。示例旧称 *board deviation index* 在这个虚构项目中始终对应以 mV 计的 *absolute voltage error*。若文中另有 *error rate*，它可以指错误次数占比，应逐处核对定义。规则按完整词或词组匹配，大小写不敏感。
 
 普通复核提示返回 0。使用 `--strict-terms` 且发现术语冲突时返回 1；输入错误返回 2。无命中只说明没有匹配该词表，语态、主语、比较是否同层以及图文结论仍需逐句审读。
 

@@ -6,6 +6,9 @@
 |---|---|
 | 写一节 Results、改首句、收紧机制解释或校审全文 | [写作 skill](skills/nature-manuscript-writing/SKILL.md) |
 | 把研究目标、小节标题和各段第一句写清楚 | [标题与首句改稿示范](skills/nature-manuscript-writing/references/results-headings-and-openers.zh-CN.md)：同一份数据的提纲、退回稿与完整替换段 |
+| 决定哪些实验进主文，哪些检查进补充，以及各段怎样递进 | [Results 的证据取舍](skills/nature-manuscript-writing/references/results-and-figures.md#实验是否值得占据正文) · [段内推理与段间递进](skills/nature-manuscript-writing/references/results-headings-and-openers.zh-CN.md#段内推理段间递进与段数) |
+| 统一正文、图例、轴及图注里的术语与指代 | [术语与指代](skills/nature-manuscript-writing/references/terminology-and-referents.zh-CN.md) |
+| 给结果图写一句发现，再按面板解释每个点和区间 | [整图图注与面板标题](skills/nature-research-figures/references/figure-workflow.zh-CN.md#图注和正文怎样配合) · [可复算的英文图注](skills/nature-research-figures/references/example.zh-CN.md) |
 | 查名词、代词、形容词、副词、语态、时态及比较句 | [英语用法规程](skills/nature-manuscript-writing/references/english-usage.md) |
 | 判断用词该删除、补证据、保留技术义，还是只在某个项目禁用 | [词语政策与例句](skills/nature-manuscript-writing/references/word-policy.md) · [可编辑检查词表](skills/nature-manuscript-writing/assets/prose-signals.tsv) |
 | 设计图组、修复一个 panel，或对照图注和源表 | [绘图 skill](skills/nature-research-figures/SKILL.md) |

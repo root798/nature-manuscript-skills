@@ -19,6 +19,6 @@ python3 scripts/render_example.py --out build
 
 **Results 示例。** Readout time was shorter under setting B for all five synthetic specimens. The mean paired difference was −2.0 ms (B minus A), with specimen differences ranging from −3 to −1 ms.
 
-**Caption 示例。** Readout time under two settings. **a**, Mean time for each specimen under setting A (circles) and setting B (diamonds). Segments span the two readings for each specimen and setting. **b**, Within-specimen differences in mean readout time (B minus A). The dashed line denotes zero. Data are synthetic.
+**Caption 示例。** Mean readout time was shorter under setting B than under setting A for all five specimens. **a**, Points show the mean of two readings per specimen under setting A (circles) and setting B (diamonds). Segments span the two observed readings in milliseconds. **b**, Points show within-specimen differences in mean readout time (B minus A). The dashed line denotes zero. Data are synthetic.
 
 见[低饱和配色在数据标记上的试样](../assets/muted-palette-proof.svg)。复现历史色谱时，`python3 scripts/render_palette_atlas.py` 从同一个 JSON 读取旧稿配置，输出 [palette-atlas.svg](../assets/palette-atlas.svg)。换色后在相同观测上重新渲染，并复核图例与图注。
