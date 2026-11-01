@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="1330" viewBox="0 0 1020 1330" role="img" aria-labelledby="title desc">
+<title id="title">Scientific figure palette atlas</title>
+<desc id="desc">Five sections show hex colours, marker shapes, signed ramps, and archived settings.</desc>
+<rect width="1020" height="1330" fill="white"/>
+<text x="32" y="45" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="700" fill="#222222">Research figure palettes</text>
+<text x="32" y="73" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Choose one mapping per scientific variable. Read each row from left to right.</text>
+<path d="M32 105H988" stroke="#C8C8C8"/>
+<text x="32" y="128" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#535C7E">01</text>
+<text x="74" y="128" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#222222">Paired measurements</text>
+<circle cx="45" cy="168" r="8" fill="#DBA3B5" stroke="#222222" stroke-width="2"/>
+<text x="67" y="175" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Setting A</text>
+<rect x="248" y="155" width="126" height="25" fill="#DBA3B5" stroke="#555555" stroke-width="0.6"/>
+<text x="248" y="198" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#DBA3B5</text>
+<rect x="392" y="155" width="126" height="25" fill="#EFD3DC" stroke="#555555" stroke-width="0.6"/>
+<text x="392" y="198" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#EFD3DC</text>
+<rect x="536" y="155" width="126" height="25" fill="#A9667C" stroke="#555555" stroke-width="0.6"/>
+<text x="536" y="198" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#A9667C</text>
+<polygon points="45,223 53,233 45,243 37,233" fill="#7C86A8" stroke="#222222" stroke-width="2"/>
+<text x="67" y="240" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Setting B</text>
+<rect x="248" y="220" width="126" height="25" fill="#7C86A8" stroke="#555555" stroke-width="0.6"/>
+<text x="248" y="263" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#7C86A8</text>
+<rect x="392" y="220" width="126" height="25" fill="#D3DFEC" stroke="#555555" stroke-width="0.6"/>
+<text x="392" y="263" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#D3DFEC</text>
+<rect x="536" y="220" width="126" height="25" fill="#535C7E" stroke="#555555" stroke-width="0.6"/>
+<text x="536" y="263" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#535C7E</text>
+<text x="248" y="296" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">Mark</text>
+<text x="392" y="296" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">Range</text>
+<text x="536" y="296" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">Dark companion</text>
+<text x="32" y="335" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Neutral reference / ink / muted</text>
+<rect x="248" y="315" width="126" height="25" fill="#B3B3B3" stroke="#555555" stroke-width="0.6"/>
+<text x="248" y="358" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#B3B3B3</text>
+<rect x="392" y="315" width="126" height="25" fill="#222222" stroke="#555555" stroke-width="0.6"/>
+<text x="392" y="358" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#222222</text>
+<rect x="536" y="315" width="126" height="25" fill="#6E6E6E" stroke="#555555" stroke-width="0.6"/>
+<text x="536" y="358" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#6E6E6E</text>
+<path d="M32 382H988" stroke="#C8C8C8"/>
+<text x="32" y="405" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#535C7E">02</text>
+<text x="74" y="405" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#222222">Four categories and signed values</text>
+<text x="32" y="449" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Categorical key</text>
+<rect x="248" y="429" width="126" height="25" fill="#85BDFE" stroke="#555555" stroke-width="0.6"/>
+<text x="248" y="472" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#85BDFE</text>
+<rect x="392" y="429" width="126" height="25" fill="#7E9C6D" stroke="#555555" stroke-width="0.6"/>
+<text x="392" y="472" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#7E9C6D</text>
+<rect x="536" y="429" width="126" height="25" fill="#F8A96E" stroke="#555555" stroke-width="0.6"/>
+<text x="536" y="472" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#F8A96E</text>
+<rect x="680" y="429" width="126" height="25" fill="#AE829C" stroke="#555555" stroke-width="0.6"/>
+<text x="680" y="472" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#AE829C</text>
+<text x="32" y="510" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Signed: low → zero → high</text>
+<rect x="248" y="490" width="126" height="25" fill="#8FA0C8" stroke="#555555" stroke-width="0.6"/>
+<text x="248" y="533" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#8FA0C8</text>
+<rect x="392" y="490" width="126" height="25" fill="#CCD6EA" stroke="#555555" stroke-width="0.6"/>
+<text x="392" y="533" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#CCD6EA</text>
+<rect x="536" y="490" width="126" height="25" fill="#FFFFFF" stroke="#555555" stroke-width="0.6"/>
+<text x="536" y="533" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#FFFFFF</text>
+<rect x="680" y="490" width="126" height="25" fill="#EFD0DA" stroke="#555555" stroke-width="0.6"/>
+<text x="680" y="533" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#EFD0DA</text>
+<rect x="824" y="490" width="126" height="25" fill="#CE98AB" stroke="#555555" stroke-width="0.6"/>
+<text x="824" y="533" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#CE98AB</text>
+<path d="M32 562H988" stroke="#C8C8C8"/>
+<text x="32" y="585" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#535C7E">03</text>
+<text x="74" y="585" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#222222">Soft four-colour profile</text>
+<circle cx="48" cy="622" r="8" fill="#869ED1" stroke="#586E9E" stroke-width="2"/>
+<text x="66" y="628" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#222222">Slot 1</text>
+<text x="48" y="653" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#869ED1 / #586E9E</text>
+<rect x="282" y="614" width="16" height="16" fill="#96D1D0" stroke="#407A79" stroke-width="2"/>
+<text x="308" y="628" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#222222">Slot 2</text>
+<text x="290" y="653" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#96D1D0 / #407A79</text>
+<polygon points="532,612 541,629 523,629" fill="#EABE94" stroke="#8D653E" stroke-width="2"/>
+<text x="550" y="628" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#222222">Slot 3</text>
+<text x="532" y="653" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#EABE94 / #8D653E</text>
+<polygon points="774,612 782,622 774,632 766,622" fill="#C6828C" stroke="#92535D" stroke-width="2"/>
+<text x="792" y="628" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#222222">Slot 4</text>
+<text x="774" y="653" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#C6828C / #92535D</text>
+<text x="32" y="694" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Single accent / soft band</text>
+<rect x="248" y="674" width="126" height="25" fill="#4F5B88" stroke="#555555" stroke-width="0.6"/>
+<text x="248" y="717" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#4F5B88</text>
+<rect x="392" y="674" width="126" height="25" fill="#F3F4F6" stroke="#555555" stroke-width="0.6"/>
+<text x="392" y="717" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#F3F4F6</text>
+<path d="M32 747H988" stroke="#C8C8C8"/>
+<text x="32" y="770" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#535C7E">04</text>
+<text x="74" y="770" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#222222">Alternative and historical scales</text>
+<text x="32" y="813" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Optional pair: fills / edges</text>
+<rect x="248" y="793" width="126" height="25" fill="#8BA0D0" stroke="#555555" stroke-width="0.6"/>
+<text x="248" y="836" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#8BA0D0</text>
+<rect x="392" y="793" width="126" height="25" fill="#4F5B88" stroke="#555555" stroke-width="0.6"/>
+<text x="392" y="836" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#4F5B88</text>
+<rect x="536" y="793" width="126" height="25" fill="#CEA2B5" stroke="#555555" stroke-width="0.6"/>
+<text x="536" y="836" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#CEA2B5</text>
+<rect x="680" y="793" width="126" height="25" fill="#9C5573" stroke="#555555" stroke-width="0.6"/>
+<text x="680" y="836" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#9C5573</text>
+<text x="32" y="873" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Ordered: low → high</text>
+<rect x="248" y="853" width="126" height="25" fill="#D7CEDC" stroke="#555555" stroke-width="0.6"/>
+<text x="248" y="896" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#D7CEDC</text>
+<rect x="392" y="853" width="126" height="25" fill="#AFC3D8" stroke="#555555" stroke-width="0.6"/>
+<text x="392" y="896" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#AFC3D8</text>
+<rect x="536" y="853" width="126" height="25" fill="#8BA0D0" stroke="#555555" stroke-width="0.6"/>
+<text x="536" y="896" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#8BA0D0</text>
+<rect x="680" y="853" width="126" height="25" fill="#6875A8" stroke="#555555" stroke-width="0.6"/>
+<text x="680" y="896" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#6875A8</text>
+<rect x="824" y="853" width="126" height="25" fill="#4F5B88" stroke="#555555" stroke-width="0.6"/>
+<text x="824" y="896" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#4F5B88</text>
+<text x="32" y="933" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Earlier signed scale</text>
+<rect x="248" y="913" width="126" height="25" fill="#C47A7A" stroke="#555555" stroke-width="0.6"/>
+<text x="248" y="956" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#C47A7A</text>
+<rect x="392" y="913" width="126" height="25" fill="#E8BFC4" stroke="#555555" stroke-width="0.6"/>
+<text x="392" y="956" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#E8BFC4</text>
+<rect x="536" y="913" width="126" height="25" fill="#F4F5F7" stroke="#555555" stroke-width="0.6"/>
+<text x="536" y="956" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#F4F5F7</text>
+<rect x="680" y="913" width="126" height="25" fill="#AFC3D8" stroke="#555555" stroke-width="0.6"/>
+<text x="680" y="956" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#AFC3D8</text>
+<rect x="824" y="913" width="126" height="25" fill="#4F5B88" stroke="#555555" stroke-width="0.6"/>
+<text x="824" y="956" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="400" fill="#222222">#4F5B88</text>
+<path d="M32 981H988" stroke="#C8C8C8"/>
+<text x="32" y="1004" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="#535C7E">05</text>
+<text x="74" y="1004" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" fill="#222222">Archived four-colour settings</text>
+<text x="32" y="1034" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Variant</text>
+<text x="248" y="1034" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Slot 1</text>
+<text x="426" y="1034" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Slot 2</text>
+<text x="604" y="1034" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Slot 3</text>
+<text x="782" y="1034" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" fill="#222222">Slot 4</text>
+<text x="32" y="1074" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#222222">A</text>
+<circle cx="256" cy="1070" r="8" fill="#8BA0D0" stroke="#4F5B88" stroke-width="2"/>
+<text x="272" y="1074" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#8BA0D0</text>
+<rect x="426" y="1062" width="16" height="16" fill="#9CB9E8" stroke="#5E73AD" stroke-width="2"/>
+<text x="450" y="1074" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#9CB9E8</text>
+<polygon points="612,1060 621,1077 603,1077" fill="#C28996" stroke="#7D4956" stroke-width="2"/>
+<text x="628" y="1074" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#C28996</text>
+<polygon points="790,1060 798,1070 790,1080 782,1070" fill="#CEA2B5" stroke="#9C5573" stroke-width="2"/>
+<text x="806" y="1074" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#CEA2B5</text>
+<text x="32" y="1110" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#222222">A2</text>
+<circle cx="256" cy="1106" r="8" fill="#8BA0D0" stroke="#4F5B88" stroke-width="2"/>
+<text x="272" y="1110" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#8BA0D0</text>
+<rect x="426" y="1098" width="16" height="16" fill="#9CB9E8" stroke="#5E73AD" stroke-width="2"/>
+<text x="450" y="1110" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#9CB9E8</text>
+<polygon points="612,1096 621,1113 603,1113" fill="#BA889B" stroke="#7A4A5D" stroke-width="2"/>
+<text x="628" y="1110" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#BA889B</text>
+<polygon points="790,1096 798,1106 790,1116 782,1106" fill="#CEA2B5" stroke="#9C5573" stroke-width="2"/>
+<text x="806" y="1110" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#CEA2B5</text>
+<text x="32" y="1146" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#222222">B</text>
+<circle cx="256" cy="1142" r="8" fill="#77A680" stroke="#3D6A47" stroke-width="2"/>
+<text x="272" y="1146" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#77A680</text>
+<rect x="426" y="1134" width="16" height="16" fill="#8BA0D0" stroke="#4F5B88" stroke-width="2"/>
+<text x="450" y="1146" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#8BA0D0</text>
+<polygon points="612,1132 621,1149 603,1149" fill="#BEAEDE" stroke="#80719E" stroke-width="2"/>
+<text x="628" y="1146" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#BEAEDE</text>
+<polygon points="790,1132 798,1142 790,1152 782,1142" fill="#CEA2B5" stroke="#9C5573" stroke-width="2"/>
+<text x="806" y="1146" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#CEA2B5</text>
+<text x="32" y="1182" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#222222">C1</text>
+<circle cx="256" cy="1178" r="8" fill="#8BA0D0" stroke="#4F5B88" stroke-width="2"/>
+<text x="272" y="1182" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#8BA0D0</text>
+<rect x="426" y="1170" width="16" height="16" fill="#A6CEA1" stroke="#6E916A" stroke-width="2"/>
+<text x="450" y="1182" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#A6CEA1</text>
+<polygon points="612,1168 621,1185 603,1185" fill="#D0B5FB" stroke="#927EB2" stroke-width="2"/>
+<text x="628" y="1182" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#D0B5FB</text>
+<polygon points="790,1168 798,1178 790,1188 782,1178" fill="#CEA2B5" stroke="#9C5573" stroke-width="2"/>
+<text x="806" y="1182" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#CEA2B5</text>
+<text x="32" y="1218" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#222222">C2</text>
+<circle cx="256" cy="1214" r="8" fill="#8BA0D0" stroke="#4F5B88" stroke-width="2"/>
+<text x="272" y="1218" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#8BA0D0</text>
+<rect x="426" y="1206" width="16" height="16" fill="#B4D088" stroke="#738A4D" stroke-width="2"/>
+<text x="450" y="1218" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#B4D088</text>
+<polygon points="612,1204 621,1221 603,1221" fill="#C4886A" stroke="#79462C" stroke-width="2"/>
+<text x="628" y="1218" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#C4886A</text>
+<polygon points="790,1204 798,1214 790,1224 782,1214" fill="#DAABBF" stroke="#9C5573" stroke-width="2"/>
+<text x="806" y="1218" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#DAABBF</text>
+<text x="32" y="1254" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#222222">C3</text>
+<circle cx="256" cy="1250" r="8" fill="#8EC4F1" stroke="#4F7FA6" stroke-width="2"/>
+<text x="272" y="1254" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#8EC4F1</text>
+<rect x="426" y="1242" width="16" height="16" fill="#84A66F" stroke="#4C6939" stroke-width="2"/>
+<text x="450" y="1254" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#84A66F</text>
+<polygon points="612,1240 621,1257 603,1257" fill="#F7B28C" stroke="#BA7650" stroke-width="2"/>
+<text x="628" y="1254" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#F7B28C</text>
+<polygon points="790,1240 798,1250 790,1260 782,1250" fill="#C699AD" stroke="#9C5573" stroke-width="2"/>
+<text x="806" y="1254" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">#C699AD</text>
+<text x="32" y="1302" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="400" fill="#222222">Exact edge tones, interval tones, optional line patterns and missing-value marking: palettes.json</text>
+</svg>

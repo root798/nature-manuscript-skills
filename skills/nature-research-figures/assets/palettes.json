@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "color_space": "sRGB",
+  "paired": {
+    "setting_a": {"mark": "#DBA3B5", "range": "#EFD3DC", "dark": "#A9667C", "marker": "o", "range_linestyle": "-"},
+    "setting_b": {"mark": "#7C86A8", "range": "#D3DFEC", "dark": "#535C7E", "marker": "D", "range_linestyle": "-"},
+    "control": "#B3B3B3",
+    "ink": "#222222",
+    "muted": "#6E6E6E",
+    "background": "#FFFFFF"
+  },
+  "categorical": {
+    "slot_1": "#85BDFE", "slot_2": "#7E9C6D", "slot_3": "#F8A96E", "slot_4": "#AE829C"
+  },
+  "signed_matrix": {"stops_low_to_high": ["#8FA0C8", "#CCD6EA", "#FFFFFF", "#EFD0DA", "#CE98AB"], "center": 0},
+  "soft_four": {
+    "slot_1": {"fill": "#869ED1", "edge": "#586E9E", "marker": "o"},
+    "slot_2": {"fill": "#96D1D0", "edge": "#407A79", "marker": "s"},
+    "slot_3": {"fill": "#EABE94", "edge": "#8D653E", "marker": "^"},
+    "slot_4": {"fill": "#C6828C", "edge": "#92535D", "marker": "D"}
+  },
+  "soft_neutrals": {
+    "ink": "#2B2B2B", "reference": "#9C9C9C", "secondary": "#B4B4B4", "quiet": "#C8C8C8",
+    "band": "#F3F4F6", "background": "#FFFFFF", "single_accent": "#4F5B88"
+  },
+  "optional_pair": {
+    "periwinkle": {"fill": "#8BA0D0", "edge": "#4F5B88", "axis_family": "#5E73AD", "flood": "#DDE3EF", "tint": "#F4F6FA"},
+    "mauve": {"fill": "#CEA2B5", "edge": "#9C5573", "axis_family": "#B0616E", "flood": "#EEDDDE", "tint": "#FBF5F5", "soft_outline": "#C98F9E"}
+  },
+  "direction_if_benefit_defined": {
+    "better": {"fill": "#8098C8", "edge": "#4F5B88"}, "worse": {"fill": "#D08A8A", "edge": "#B05F5F"}
+  },
+  "historical_scales": {
+    "paired_marks": ["#6875A8", "#D89090"],
+    "paired_dark": ["#3D4A72", "#9C5555"],
+    "caution": "#C47A7A", "unresolved": "#D7CEDC", "provisional": "#FFB7C3", "warm_grey": "#B9AB9C", "light_positive": "#C5E9E3",
+    "sequential_low_to_high": ["#D7CEDC", "#AFC3D8", "#8BA0D0", "#6875A8", "#4F5B88"],
+    "diverging_low_to_high": ["#C47A7A", "#E8BFC4", "#F4F5F7", "#AFC3D8", "#4F5B88"]
+  },
+  "archived_unassigned_tints": ["#E9D2C1", "#CCDCCD", "#D4CEE2", "#E8E0C4", "#C9D9E4"],
+  "archived_four_markers": ["o", "s", "^", "D"],
+  "archived_four": {
+    "A":  {"fills": ["#8BA0D0", "#9CB9E8", "#C28996", "#CEA2B5"], "edges": ["#4F5B88", "#5E73AD", "#7D4956", "#9C5573"], "box_alpha": 0.35},
+    "A2": {"fills": ["#8BA0D0", "#9CB9E8", "#BA889B", "#CEA2B5"], "edges": ["#4F5B88", "#5E73AD", "#7A4A5D", "#9C5573"], "box_alpha": 0.35},
+    "B":  {"fills": ["#77A680", "#8BA0D0", "#BEAEDE", "#CEA2B5"], "edges": ["#3D6A47", "#4F5B88", "#80719E", "#9C5573"], "box_alpha": 0.35},
+    "C1": {"fills": ["#8BA0D0", "#A6CEA1", "#D0B5FB", "#CEA2B5"], "edges": ["#4F5B88", "#6E916A", "#927EB2", "#9C5573"], "box_alpha": 0.35},
+    "C2": {"fills": ["#8BA0D0", "#B4D088", "#C4886A", "#DAABBF"], "edges": ["#4F5B88", "#738A4D", "#79462C", "#9C5573"], "box_alpha": 0.35},
+    "C3": {"fills": ["#8EC4F1", "#84A66F", "#F7B28C", "#C699AD"], "edges": ["#4F7FA6", "#4C6939", "#BA7650", "#9C5573"], "box_alpha": 0.5}
+  },
+  "optional_line_cycle": ["-", "--", "-.", ":"],
+  "missing_example": {"cell": "#C8C8C8", "label": "NA"}
+}

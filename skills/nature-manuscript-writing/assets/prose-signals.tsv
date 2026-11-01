@@ -1,0 +1,21 @@
+id	category	pattern	review
+V01	动词	\b(?:delv(?:e|es|ed|ing)|showcas(?:e|es|ed|ing)|underscore[sd]?|foster(?:s|ed|ing)?|leverag(?:e|es|ed|ing)|utiliz(?:e|es|ed|ing))\b	确定实际动作是测量、使用、比较、估计还是支持，选择能复核的动词。
+V02	动词	\b(?:prov(?:e|es|ed|ing)|establish(?:es|ed)?|confirm(?:s|ed)?|caus(?:e|es|ed))\b	核设计是否识别了所称因果、证明或确定性结论；数学证明及有识别依据的因果用法可保留。
+V03	用词	\b(?:serves? as|functions? as|represents?)\b	如果只是在下定义，可直接用 is；标记真正表示一个量时保留 represents。
+V04	尾部从句	,\s*(?:highlighting|underscoring|demonstrating|suggesting)\b	让尾部结论有清楚的主语和对应证据，或删除重复解释。
+N01	名词	\b(?:landscape|realm|tapestry|interplay|paradigm)\b	写出具体对象、关系或场景。若是学科中已有定义的术语，核定义后保留。
+N02	名词化	\b(?:utilization|implementation|evaluation|investigation) of (?:the )?(?:utilization|implementation|evaluation|assessment)\b	找到真正做动作的对象，把嵌套的抽象名词改成一个可读的主谓句。
+N03	对象	\b(?:some|other|various|several|numerous) (?:groups|conditions|methods|samples|cases)\b	说清哪些组、什么范围、几项。若名册不足以支持精确数量，不补造数量。
+P01	指代	\b(?:this|that|these|those) (?:shows?|suggests?|indicates?|implies?|demonstrates?|reveals?)\b	先读前一句。若有多个可能先行词，补上所指结果或差异及其作用域。
+P02	指代	\b(?:the former|the latter|respectively)\b	读者能否唯一配对？有多组、多量或长距离指代时，重写具体名词。
+A01	形容词	\b(?:pivotal|crucial|intricate|comprehensive|meticulous|innovative|notable|remarkable|unprecedented)\b	区分技术限定与作者评价。能测量的重要性用对象、比较和尺度表达。
+A02	性质	\b(?:stable|robust|reliable|consistent|superior)\b	指出哪一性质、相对谁、在什么条件下成立。正式方法名或已有定义的性质可保留。
+A03	统计措辞	\b(?:significant(?:ly)?|non-significant)\b	若指统计推断，交代检验与对象；若指实质影响，给尺度与不确定性。
+D01	副词	\b(?:clearly|obviously|undoubtedly|inherently|notably|interestingly|remarkably|dramatically|substantially|largely|strongly|markedly|highly|robustly|stably)\b	删去后若信息不变就删；若它表示差异大小，给合适的比较量或范围。
+D02	空元话语	\b(?:it is (?:important|worthwhile|interesting) to (?:note|emphasize)|it should be noted that|needless to say)\b	从后面的实质主张起笔。
+D03	范围与创新	\b(?:for the first time|first-ever|best-performing|always|universally|every case)\b	核查了哪些工作或样本？交代调查边界、观测范围或反例。
+S01	复述	\b(?:in other words|this highlights (?:that|the)|taken together,? these findings)\b	第二句是否改变读者的判断？若只重说同一事实，合并。
+S02	重复限定	\b(?:may potentially|could possibly|might perhaps|possibly may)\b	选择一个与证据强度相称的限定。
+S03	连接	^\s*(?:additionally|moreover|furthermore|overall)\b	检查这句话究竟增加、限定还是推翻上一句；需要连接时写明实际关系。
+S04	对比	\bnot only\b.{0,140}\bbut also\b	确认两端是同一层级的真实比较，避免为强调而制造对举。
+S05	标点	—	检查长破折号是否代替介词、从句或完整句；范围连线及数学负号保留原义。

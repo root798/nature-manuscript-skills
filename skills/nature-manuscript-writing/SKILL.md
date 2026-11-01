@@ -1,0 +1,29 @@
+---
+name: nature-manuscript-writing
+description: Draft, revise or audit a scientific manuscript for a broad research audience. Use for Nature-style Results, section structure, quantitative claims, figure captions, English word choice and terminology. Includes a Chinese editing handbook with original English examples.
+---
+
+# Scientific manuscript writing
+
+Start with the question, the comparison and the evidence. A reader should understand the finding on a first reading and be able to check the statement against a figure, table or source record. These are editorial house preferences. A target journal's current instructions and the author's accepted revision govern the actual submission.
+
+## Choose the edit
+
+| Task | Open | Deliver |
+|---|---|---|
+| Draft a manuscript, restructure a section, translate or respond to review | [Argument and section guide](references/manuscript-structure.md) | A reverse outline, the requested copy-ready text and the few issues that still affect it |
+| Revise a Results paragraph, reconcile its panel, update values or shorten its caption | [Results and figure-text checks](references/results-and-figures.md) | A replacement paragraph or caption, its location and the evidence needed to clear any open claim |
+| Fix grammar, syntax, tone or ambiguity without changing the science | [English usage guide](references/english-usage.md) | Complete revised sentences with the actor, referent, comparison, units and uncertainty preserved |
+| Check prohibited wording, unsupported claims, term drift or repetitive prose | [Vocabulary and style checks](references/word-policy.md) | Context-specific corrections. In an audit, identify the offending passage, reason, replacement and exception |
+
+For a local, read-only scan of lexical signals and a manuscript-specific term lock, see [Using the checker](references/using-the-checker.md). Resolve flagged wording in its scientific context.
+
+## Working method
+
+1. **Establish the baseline.** Identify the accepted manuscript, figures, source data, current terminology and edit scope. If the task is review-only, return proposed edits with locations. If only values can change, trace each affected number before replacing it. When a new value reverses the direction or changes the population, flag the exact sentence and offer a minimal replacement for approval.
+2. **Check what was measured.** For each load-bearing claim, record the population, independent unit, endpoint, denominator, comparator, direction, uncertainty, source and version. Distinguish observation, fit, simulation, forecast and hypothesis. Use a visible placeholder for a missing quantity in a working draft.
+3. **Rebuild the argument at the right scale.** Read the section headings and first sentences in isolation. Assign one job to each paragraph. For a Results finding, make the comparison intelligible before asking the reader to interpret a coefficient. Use only the design detail needed to understand that comparison.
+4. **Edit at sentence level.** Identify the actor and finite verb. Resolve every pronoun. Replace scale-free modifiers with a verified quantity, criterion or scope. Use one term for each construct throughout the manuscript and artwork. Let claim strength track study design and uncertainty.
+5. **Close the evidence loop.** Match the sentence to the current panel, caption, table or primary reference. Check the actual compiled document when layout or references are in scope. Report unresolved evidence separately from text that is ready to use.
+
+For a large revision, distinguish established constraints, author preferences and project-only exceptions in the edit record. For a small correction, apply just the relevant check. All examples in the handbook are invented for teaching. Their numbers and findings do not belong in a manuscript.
