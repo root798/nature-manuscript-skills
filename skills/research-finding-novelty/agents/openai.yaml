@@ -1,0 +1,4 @@
+interface:
+  display_name: "发现与创新思考（通用）"
+  short_description: "拆解论文证据，辨清共识与分歧，形成可推翻的发现、应用闭环与审稿补强方案"
+  default_prompt: "使用 $research-finding-novelty：从已有证据和最接近论文收敛研究问题，检验默认假设，选一条主发现，写清应用、最小验证闭环和推翻条件。"

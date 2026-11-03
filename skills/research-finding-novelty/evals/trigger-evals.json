@@ -1,0 +1,98 @@
+[
+  {
+    "query": "从 scaling law 的角度深入思考，我们这个分析能有什么深刻的发现？",
+    "should_trigger": true
+  },
+  {
+    "query": "帮我想几个 idea，这个方向还能挖出什么结论",
+    "should_trigger": true
+  },
+  {
+    "query": "这个 idea 有没有人做过？帮我查新并写 novelty",
+    "should_trigger": true
+  },
+  {
+    "query": "除了这些变量还能分析什么？数据够不够？",
+    "should_trigger": true
+  },
+  {
+    "query": "和 Ruan 2024 observational scaling laws 比，我们的贡献差在哪",
+    "should_trigger": true
+  },
+  {
+    "query": "release date 应该怎么拆才能得出深刻结论",
+    "should_trigger": true
+  },
+  {
+    "query": "跑了一堆分析都是数字，没有一个清楚的发现，帮我理一下",
+    "should_trigger": true
+  },
+  {
+    "query": "已经有类似论文了，这个方向是不是该放弃？",
+    "should_trigger": true
+  },
+  {
+    "query": "how should I frame the novelty of this evaluation study against prior work",
+    "should_trigger": true
+  },
+  {
+    "query": "这些因素的影响怎么用一个框架清楚展示",
+    "should_trigger": true
+  },
+  {
+    "query": "把这段 Results 改成 Nature 风格，首句给发现",
+    "should_trigger": false
+  },
+  {
+    "query": "画 Figure 2，三个面板，字号 7pt",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我写审稿意见逐条回复信",
+    "should_trigger": false
+  },
+  {
+    "query": "跑一下这个 Python 脚本，算 bootstrap 区间",
+    "should_trigger": false
+  },
+  {
+    "query": "把这篇论文翻译成中英对照",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我写 Data Availability 声明",
+    "should_trigger": false
+  },
+  {
+    "query": "compile my LaTeX and fix undefined references",
+    "should_trigger": false
+  },
+  {
+    "query": "这张图的颜色太多了，改成灰阶加一个强调色",
+    "should_trigger": false
+  },
+  {
+    "query": "导出这 10 篇文献的 RIS 文件",
+    "should_trigger": false
+  },
+  {
+    "query": "做一个组会 PPT",
+    "should_trigger": false
+  },
+  {
+    "query": "拆开这几篇论文的证据，判断哪些真有分歧，再收敛我的研究切入点",
+    "should_trigger": true
+  },
+  {
+    "query": "这个发现到应用还缺什么闭环，最挑剔的审稿人会反对哪里",
+    "should_trigger": true
+  },
+  {
+    "query": "把现有Markdown表格转换成CSV，不分析研究内容",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我在日历里安排下周组会",
+    "should_trigger": false
+  }
+]

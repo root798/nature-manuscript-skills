@@ -1,9 +1,10 @@
 # Nature Manuscript Skills
 
-用于科学论文写作和数据制图的两套可移植 skills。它们共同解决一个问题：**Results 里的每项判断，读者能否在相应面板上看到，并追到同一份数据？** 两套入口使用英文，详细指南使用中文，改写示范使用英文。这里的措辞偏好和配色属于编辑模板。投稿时另查目标期刊及文章类型的现行要求。[Nature 作者格式指南](https://www.nature.com/nature/for-authors/formatting-guide) · [Nature 官方制图规格](https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/)
+用于研究发现、科学论文写作和数据制图的三套可移植 skills。它们把研究问题、证据、应用验证与图文表达连起来：**每项判断是否有对应证据，新增贡献与适用范围是否清楚？** 写作与绘图入口使用英文，研究发现流程和详细指南使用中文，改写示范使用英文。这里的措辞偏好和配色属于编辑模板。投稿时另查目标期刊及文章类型的现行要求。[Nature 作者格式指南](https://www.nature.com/nature/for-authors/formatting-guide) · [Nature 官方制图规格](https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/)
 
 | 要做的事 | 入口 |
 |---|---|
+| 拆论文、辨清共识与分歧、收敛研究发现及应用验证 | [发现与创新 skill](skills/research-finding-novelty/SKILL.md) · [论文证据图](skills/research-finding-novelty/references/paper-evidence.md) · [审稿预演与收敛](skills/research-finding-novelty/references/review-and-convergence.md) |
 | 写一节 Results、改首句、收紧机制解释或校审全文 | [写作 skill](skills/nature-manuscript-writing/SKILL.md) |
 | 把研究目标、小节标题和各段第一句写清楚 | [标题与首句改稿示范](skills/nature-manuscript-writing/references/results-headings-and-openers.zh-CN.md)：同一份数据的提纲、退回稿与完整替换段 |
 | 决定哪些实验进主文，哪些检查进补充，以及各段怎样递进 | [Results 的证据取舍](skills/nature-manuscript-writing/references/results-and-figures.md#实验是否值得占据正文) · [段内推理与段间递进](skills/nature-manuscript-writing/references/results-headings-and-openers.zh-CN.md#段内推理段间递进与段数) |
@@ -42,6 +43,7 @@
 
 解压或克隆整个仓库。将 `skills/` 下所需的完整子目录复制到当前账户的 `~/.codex/skills/` 或 `~/.claude/skills/`，并在新会话中点名 skill。也可以直接阅读 SKILL.md，无需安装。
 
+- **研究发现请求示例**　“用 `research-finding-novelty` 拆解最接近论文的证据，区分真正分歧与测量对象不同，选一条主发现，写清应用、最小验证闭环和推翻条件。”
 - **写作请求示例**　“用 `nature-manuscript-writing` 修改这段 Results。保留比较范围，指出哪些词需要证据，交完整英文替换段。”
 - **绘图请求示例**　“用 `nature-research-figures` 画出这两种设置的差异。给两种低饱和配色，在同一张配对图上比较，选成稿大小下更好认的那组。”
 
